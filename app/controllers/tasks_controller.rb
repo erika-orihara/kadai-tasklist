@@ -1,10 +1,13 @@
 class TasksController < ApplicationController
+  before_action :set_task, only: [:show, :edit, :update, :destroy]
+  
+  
+  
   def index
     @tasks = Task.all
   end 
 
   def show
-    @task = Task.find(params[:id])
   end 
   
   def new
@@ -25,12 +28,10 @@ class TasksController < ApplicationController
   end 
   
   def edit
-    @task = Task.find(params[:id])
   end 
   
   
   def update
-    @task = Task.find(params[:id])
     
     
     if @task.update(task_params)
@@ -44,7 +45,6 @@ class TasksController < ApplicationController
   
   
   def destroy
-    @task = Task.find(params[:id])
     @task.destroy
     
     
@@ -56,8 +56,14 @@ class TasksController < ApplicationController
   private
   
   
+  def set_task
+    @task = Task.find(params[:id])
+  end 
+
+  
   # Strong Parameter
   def task_params
     params.require(:task).permit(:content)
   end 
+  
 end
