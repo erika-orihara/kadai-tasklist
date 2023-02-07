@@ -1,10 +1,13 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
-  
+  before_action :require_user_logged_in
   
   
   def index
-    @tasks = Task.all
+    if logged_in?
+      @task = current_user.tasks.build #form_with用
+      @pagy, @tasks = pagy(current_user.tasks.order(id: :desc))
+    end 
   end 
 
   def show
@@ -14,8 +17,9 @@ class TasksController < ApplicationController
     @task = Task.new
   end 
   
+  
   def create
-    @task = Task.new(task_params)
+    @task = current_user.tasks.build(task_params)
     
     
     if @task.save
@@ -65,5 +69,4 @@ class TasksController < ApplicationController
   def task_params
     params.require(:task).permit(:content, :status)
   end 
-  
-end
+end 
