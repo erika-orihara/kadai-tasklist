@@ -1,0 +1,59 @@
+[33mcommit 56821bfcadca0c808cedca81c0996e8ee9402cbf[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Tue Feb 7 13:00:45 2023 +0000
+
+    first-submission
+
+[33mcommit c48ba950e7e62cbeb65317f0941750c26da780ff[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Thu Jan 12 14:38:42 2023 +0000
+
+    add column
+
+[33mcommit f407703adbba9984f49d0089b2680dac1b60dd66[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Thu Jan 12 14:20:23 2023 +0000
+
+    validation
+
+[33mcommit c9d68b0a777640f0926e432da9c99390ad30a16f[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Thu Jan 12 14:08:27 2023 +0000
+
+    DRY
+
+[33mcommit 35c7b6794f332c01708df2f8dc8967650f9a8e85[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Wed Jan 11 14:06:29 2023 +0000
+
+    second_submission
+
+[33mcommit 2e34c1296b1010ea9a0663b0e55f311e6d8fd227[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Tue Jan 10 10:47:35 2023 +0000
+
+    first_submission
+
+[33mcommit bd4b3aa3f6866b1cf0e56c63b6d9943f5b2a0030[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Tue Jan 10 10:35:11 2023 +0000
+
+    CRUD tasks
+
+[33mcommit 510d71a1873b418cdb95348f77f34db2ac2ee409[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Tue Jan 10 04:45:08 2023 +0000
+
+    task model
+
+[33mcommit a5f479f09e4c5e2078ea1485b0b7e226afe21066[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Tue Jan 10 03:22:59 2023 +0000
+
+    create database
+
+[33mcommit dc1f3fa27e550d10cfe2f628b546db61f14d346d[m
+Author: erika.orihara <erng.erk@gmail.com>
+Date:   Tue Jan 10 03:17:27 2023 +0000
+
+    init Rails Project

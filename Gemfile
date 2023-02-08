@@ -53,3 +53,5 @@ end
 
 gem 'pagy'
 
+
+gem "dockerfile-rails", ">= 1.0", :group => :development
